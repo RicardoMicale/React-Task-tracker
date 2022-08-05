@@ -1,12 +1,16 @@
 import Header from './components/Header'
-import Tasks from './components/Tasks'
+import Expenses from './components/Expenses'
+import Form from './components/Form'
 
 function App() {
 	return (
 		<div className="App px-20">
 			<Header />
-			<Tasks />
-		</div>
+			<section className='container flex items-start justify-start mt-8'>
+				<Expenses />
+				<Form />
+			</section>
+		</div >
 	);
 }
 
