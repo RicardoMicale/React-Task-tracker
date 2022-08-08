@@ -63,7 +63,7 @@ function Form(props) {
 				className='w-full border border-gray border-opacity-30 rounded px-4 py-2 mb-6 text-base'
 			/>
 			<input type="submit" value="Save expense"
-				className='cursor-pointer bg-blue px-6 py-2 font-bold text-white rounded-full mb-4 transition-all hover:bg-dark-blue'
+				className='cursor-pointer bg-blue px-6 py-2 font-bold text-white rounded mb-4 transition-all hover:bg-dark-blue active:bg-dark-blue'
 			/>
 		</form>
 	)
