@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import Expenses from './components/Expenses'
 import Form from './components/Form'
+import Modal from './components/Modal'
 import { useState } from 'react'
 
 const expenseList = [
@@ -32,6 +33,7 @@ function App() {
 				<Expenses list={list} />
 				<Form list={list} updateList={(newList) => setList(newList)} />
 			</section>
+			<Modal />
 		</div >
 	);
 }
